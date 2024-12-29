@@ -1,0 +1,13 @@
+model_name:
+  name: "llama3"
+model_type: "ollama"
+embeddings_name: "sentence-transformers/all-MiniLM-L6-v2"
+model_config:
+  {
+    "temperature": 0,
+    "top_p": 0.8,
+    "max_tokens": 256,
+    "context_window_size": 1024,
+    "gpu_layers": 10,
+  }
+chat_history_path: "./chat_sessions/"
